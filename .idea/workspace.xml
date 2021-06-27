@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/comments.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/services/getObj.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.css" beforeDir="false" />
+    <list default="true" id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="add webpack">
+      <change afterPath="$PROJECT_DIR$/src/scripts/addcomments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/services/getComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/services/getComments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/services/getObj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +52,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624375853417</updated>
-      <workItem from="1624375856671" duration="1960000" />
+      <workItem from="1624375856671" duration="2202000" />
+      <workItem from="1624456674867" duration="4682000" />
+      <workItem from="1624809857593" duration="1504000" />
     </task>
+    <task id="LOCAL-00001" summary="add webpack">
+      <created>1624378060697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624378060697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,6 +79,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add webpack" />
+    <option name="LAST_COMMIT_MESSAGE" value="add webpack" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
