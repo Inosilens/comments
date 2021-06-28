@@ -57,7 +57,7 @@
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
     "prettier": "^2.3.1"
   }
