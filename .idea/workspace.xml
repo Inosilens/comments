@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="add new comments from api">
-      <change afterPath="$PROJECT_DIR$/src/scripts/services/getPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/app.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/clases.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/addcomments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/addcomments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/some.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/some.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/photo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/services/getComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/services/getComments.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,10 @@
       <workItem from="1624375856671" duration="2202000" />
       <workItem from="1624456674867" duration="4682000" />
       <workItem from="1624809857593" duration="1722000" />
-      <workItem from="1624889410839" duration="6083000" />
+      <workItem from="1624889410839" duration="6433000" />
+      <workItem from="1624978909556" duration="3024000" />
+      <workItem from="1624984382915" duration="1841000" />
+      <workItem from="1625058258302" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="add webpack">
       <created>1624378060697</created>
@@ -89,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624811561890</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add new comments from api">
+      <created>1624895743634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624895743634</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
