@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="add new comments from api">
-      <change afterPath="$PROJECT_DIR$/src/scripts/clases.js" afterDir="false" />
+    <list default="true" id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="API DATA ADD IN HTML">
+      <change afterPath="$PROJECT_DIR$/src/scripts/Comments3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/addcomments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/clases.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.sass" afterDir="false" />
+    </list>
+    <list id="0b16eb07-425c-4219-a9d1-20be1050a26e" name="small refactoring" comment="small refactoring">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/photo.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/services/getComments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/services/getComments.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/prettierJS/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/small_refactoring.patch" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\andrey programist\коменты\comments\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -61,6 +70,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="" />
+      <changelist id="0b16eb07-425c-4219-a9d1-20be1050a26e" name="small refactoring" comment="" />
       <created>1624375853417</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -72,6 +82,9 @@
       <workItem from="1624978909556" duration="3024000" />
       <workItem from="1624984382915" duration="1841000" />
       <workItem from="1625058258302" duration="2226000" />
+      <workItem from="1625064876182" duration="92000" />
+      <workItem from="1625157956789" duration="1089000" />
+      <workItem from="1625294137442" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="add webpack">
       <created>1624378060697</created>
@@ -94,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624895743634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new comments from api">
+      <created>1625064900367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625064900367</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +136,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add webpack" />
     <MESSAGE value="add new comments from api" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new comments from api" />
+    <MESSAGE value="API DATA ADD IN HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="API DATA ADD IN HTML" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

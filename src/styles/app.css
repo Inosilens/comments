@@ -73,12 +73,6 @@ body {
   height: 100px;
 }
 
-#comments .media {
-  border-top: 1px dashed #DDDDDD;
-  padding: 20px 0;
-  margin: 0;
-}
-
 #comments .media > .pull-left {
   margin-right: 20px;
 }
