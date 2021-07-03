@@ -1,3 +1,5 @@
+import Current from "./CommentsCurrent";
+
 class AppendCommentsUser {
   constructor() {
     this.comment = null;
@@ -47,8 +49,7 @@ class AppendCommentsUser {
     });
   }
   upCurrent() {
-    let result = document.querySelector(".curent__comments");
-    result.innerHTML = Work;
+    new Current();
   }
 }
 

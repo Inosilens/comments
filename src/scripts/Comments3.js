@@ -1,6 +1,7 @@
 import { getComments } from "./services/getComments";
 import { getPhoto } from "./services/getPhoto";
 import Current from "./CommentsCurrent";
+import AppendCommentsUser from "./AppendCommentsUser";
 
 export class Comments3 {
   constructor() {
@@ -14,7 +15,8 @@ export class Comments3 {
         .then(() => {
           this.addNewComments();
         })
-        .then(this.current);
+        .then(this.current)
+        .then(this.addUserComments);
     });
   }
 
@@ -24,7 +26,6 @@ export class Comments3 {
   async getListOfComments() {
     return await getComments().then((data) => {
       this._listOfComments = data;
-      console.log(data);
     });
   }
 
@@ -34,7 +35,6 @@ export class Comments3 {
   async getListOfImg() {
     return await getPhoto().then((data) => {
       this._listOfImg = data;
-      console.log(data);
     });
   }
   groupAllData() {
@@ -76,5 +76,9 @@ export class Comments3 {
 
   current() {
     new Current();
+  }
+
+  addUserComments() {
+    new AppendCommentsUser();
   }
 }

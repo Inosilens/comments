@@ -7,10 +7,9 @@ class Current {
 
   getCurrentComments() {
     this.currents = document.querySelectorAll(".media");
-    console.log(this.currents);
   }
   changeCurrent() {
-    this.text = document.querySelector(".curent__comments");
+    this.text = document.querySelector(".current__comments");
     this.text.innerHTML = `${this.currents.length} comments now`;
     return console.log("All ok");
   }

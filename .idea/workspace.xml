@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="ad current and userComments">
+    <list default="true" id="380695f9-80c8-46f6-a0bc-dab413b4e125" name="Default Changelist" comment="refactoring current">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/AppendCommentsUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/AppendCommentsUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/Comments3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/Comments3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/CommentsCurrent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/CommentsCurrent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.sass" afterDir="false" />
     </list>
     <list id="0b16eb07-425c-4219-a9d1-20be1050a26e" name="small refactoring" comment="small refactoring">
       <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
@@ -86,7 +83,7 @@
       <workItem from="1625294137442" duration="3303000" />
       <workItem from="1625302576731" duration="3490000" />
       <workItem from="1625313717973" duration="1960000" />
-      <workItem from="1625325241352" duration="2566000" />
+      <workItem from="1625325241352" duration="4550000" />
     </task>
     <task id="LOCAL-00001" summary="add webpack">
       <created>1624378060697</created>
@@ -130,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625313788911</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactoring current">
+      <created>1625328019977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625328019977</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +158,8 @@
     <MESSAGE value="add new comments from api" />
     <MESSAGE value="API DATA ADD IN HTML" />
     <MESSAGE value="ad current and userComments" />
-    <option name="LAST_COMMIT_MESSAGE" value="ad current and userComments" />
+    <MESSAGE value="refactoring current" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring current" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
