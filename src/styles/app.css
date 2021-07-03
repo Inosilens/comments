@@ -62,7 +62,10 @@ body {
 }
 
 #comments .btn {
-  margin-top: 7px;
+  margin-top: 270px;
+  position: absolute;
+  margin-left: 300px;
+  border: 1px solid black;
 }
 
 #comments form fieldset {
@@ -118,6 +121,11 @@ body {
   color: #666666;
   font-size: 15px;
   margin-right: 10px;
+}
+
+.form-group {
+  padding-left: 224px;
+  padding-top: 118px;
 }
 
 /*# sourceMappingURL=app.css.map */

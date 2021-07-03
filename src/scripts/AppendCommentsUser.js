@@ -3,14 +3,21 @@ class AppendCommentsUser {
     this.comment = null;
     this.getUserComment();
     this.eventInit();
+    this.upCurrent();
   }
   getUserComment() {
     return (this.comment = document.querySelector("#message").value);
   }
+  getUserAvatar() {
+    return document.querySelector(".user-avatar").src;
+  }
   append() {
     this.app = document.querySelector("#app");
-    this.app.innerHTML += `<div class="media">
-            <a class="pull-left" href="#"><img class="media-object" src="" alt=""></a>
+    if (document.querySelector("#message").value !== "") {
+      this.app.insertAdjacentHTML(
+        "afterBegin",
+        `<div class="media">
+            <a class="pull-left" href="#"><img class="media-object" src="${this.getUserAvatar()}" alt=""></a>
             <div class="media-body border mt-5 p-5">
             <h1 class="comments__theme">This comment theme</h1>
               <h4 class="media-heading pt-3">This user name</h4>
@@ -27,13 +34,21 @@ class AppendCommentsUser {
           </div>
 
 
-        `;
+        `
+      );
+    } else {
+      alert("Enter Message");
+    }
   }
   eventInit() {
     this.editButton = document.querySelector(".submit");
     this.editButton.addEventListener("click", () => {
       this.append();
     });
+  }
+  upCurrent() {
+    let result = document.querySelector(".curent__comments");
+    result.innerHTML = Work;
   }
 }
 

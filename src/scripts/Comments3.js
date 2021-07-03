@@ -1,5 +1,6 @@
 import { getComments } from "./services/getComments";
 import { getPhoto } from "./services/getPhoto";
+import Current from "./CommentsCurrent";
 
 export class Comments3 {
   constructor() {
@@ -12,7 +13,8 @@ export class Comments3 {
         })
         .then(() => {
           this.addNewComments();
-        });
+        })
+        .then(this.current);
     });
   }
 
@@ -70,5 +72,9 @@ export class Comments3 {
 
         `;
     }
+  }
+
+  current() {
+    new Current();
   }
 }
