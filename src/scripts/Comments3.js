@@ -52,7 +52,7 @@ export class Comments3 {
     for (let key in content) {
       document.querySelector("#app").innerHTML += `<div class="media">
             <a class="pull-left" href="#"><img class="media-object" src=${content[key].thumbnailUrl} alt=""></a>
-            <div class="media-body border mt-5 p-5">
+            <div class="media-bod   y border mt-5 p-5">
             <h1 class="comments__theme">${content[key].name}</h1>
               <h4 class="media-heading pt-3">${content[key].email}</h4>
               <p>${content[key].body}</p>
