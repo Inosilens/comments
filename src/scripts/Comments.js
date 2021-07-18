@@ -3,7 +3,7 @@ import { getPhoto } from "./services/getPhoto";
 import Current from "./CommentsCurrent";
 import AppendCommentsUser from "./AppendCommentsUser";
 
-export class Comments3 {
+export class Comments {
   constructor() {
     this._listOfComments = null;
     this._listOfImg = null;
