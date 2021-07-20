@@ -5,7 +5,6 @@ class AppendCommentsUser {
     this.comment = null;
     this.getUserComment();
     this.eventInit();
-    this.upCurrent();
   }
   getUserComment() {
     return (this.comment = document.querySelector("#message").value);
@@ -16,7 +15,7 @@ class AppendCommentsUser {
   append() {
     this.app = document.querySelector("#app");
     if (document.querySelector("#message").value !== "") {
-      this.app.insertAdjacentHTML(
+      return this.app.insertAdjacentHTML(
         "afterBegin",
         `<div class="media">
             <a class="pull-left" href="#"><img class="media-object" src="${this.getUserAvatar()}" alt=""></a>
@@ -45,11 +44,8 @@ class AppendCommentsUser {
   eventInit() {
     this.editButton = document.querySelector(".submit");
     this.editButton.addEventListener("click", () => {
-      this.append();
+      return this.append();
     });
-  }
-  upCurrent() {
-    new Current();
   }
 }
 

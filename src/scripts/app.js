@@ -1,4 +1,4 @@
-import { Comments3 } from "./Comments3";
+import Comments from "./Comments";
 import "../styles/app.sass";
 
-new Comments3();
+new Comments();

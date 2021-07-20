@@ -3,7 +3,7 @@ import { getPhoto } from "./services/getPhoto";
 import Current from "./CommentsCurrent";
 import AppendCommentsUser from "./AppendCommentsUser";
 
-export class Comments {
+export default class Comments {
   constructor() {
     this._listOfComments = null;
     this._listOfImg = null;
@@ -14,12 +14,15 @@ export class Comments {
         })
         .then(() => {
           this.addNewComments();
-        })
-        .then(this.current)
-        .then(this.addUserComments);
+          this.addCurrentAfterComments().then(
+            () => new Current(this.gropeddata.length)
+          );
+        });
     });
   }
-
+  addCurrentAfterComments() {
+    return this.addUserComments();
+  }
   ListComments() {
     return this._listOfComments;
   }
@@ -45,14 +48,14 @@ export class Comments {
         thumbnailUrl: this._listOfImg[i].thumbnailUrl,
       });
     }
-    console.log(groupedData);
     return groupedData;
   }
 
   addNewComments() {
+    let data = "";
     let content = this.gropeddata;
     for (let key in content) {
-      document.querySelector("#app").innerHTML += `<div class="media">
+      data += `<div class="media">
             <a class="pull-left" href="#"><img class="media-object" src=${content[key].thumbnailUrl} alt=""></a>
             <div class="media-bod   y border mt-5 p-5">
             <h1 class="comments__theme">${content[key].name}</h1>
@@ -67,18 +70,16 @@ export class Comments {
                 <li class=""><a href="">Reply</a></li>
               </ul>
             </div>
-          </div>
-
-
-        `;
+          </div>`;
     }
+    document.querySelector("#app").innerHTML = data;
   }
 
   current() {
     new Current();
   }
 
-  addUserComments() {
-    new AppendCommentsUser();
+  async addUserComments() {
+    return new AppendCommentsUser();
   }
 }

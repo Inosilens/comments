@@ -1,17 +1,13 @@
 class Current {
-  constructor() {
-    this.currents = null;
-    this.getCurrentComments();
+  constructor(data) {
+    this.currents = data;
     this.changeCurrent();
   }
 
-  getCurrentComments() {
-    this.currents = document.querySelectorAll(".media");
-  }
   changeCurrent() {
-    this.text = document.querySelector(".current__comments");
-    this.text.innerHTML = `${this.currents.length} comments now`;
-    return console.log("All ok");
+    let text = document.querySelector(".current__comments");
+    text.innerHTML = `${this.currents} comments now`;
+    console.log(this.currents);
   }
 }
 export default Current;
