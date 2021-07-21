@@ -30,7 +30,6 @@ export default class Comments {
     });
   }
 
-
   async getListOfImg() {
     return await getPhoto().then((data) => {
       this._listOfImg = data;
@@ -70,8 +69,6 @@ export default class Comments {
     }
     document.querySelector("#app").innerHTML = data;
   }
-
-
 
   async addUserComments() {
     return new AppendCommentsUser();
