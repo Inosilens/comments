@@ -23,18 +23,14 @@ export default class Comments {
   addCurrentAfterComments() {
     return this.addUserComments();
   }
-  ListComments() {
-    return this._listOfComments;
-  }
+
   async getListOfComments() {
     return await getComments().then((data) => {
       this._listOfComments = data;
     });
   }
 
-  listImg() {
-    return this._listOfImg;
-  }
+
   async getListOfImg() {
     return await getPhoto().then((data) => {
       this._listOfImg = data;
@@ -75,9 +71,7 @@ export default class Comments {
     document.querySelector("#app").innerHTML = data;
   }
 
-  current() {
-    new Current();
-  }
+
 
   async addUserComments() {
     return new AppendCommentsUser();
