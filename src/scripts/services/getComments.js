@@ -1,3 +1,5 @@
-export const getComments = (url) => {
-  return fetch(url).then((response) => response.json());
+export const getComments = () => {
+  return fetch("https://jsonplaceholder.typicode.com/comments").then(
+    (response) => response.json()
+  );
 };
